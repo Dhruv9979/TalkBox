@@ -1,5 +1,4 @@
-package TalkBoxConfigurationGUI;
-
+package TalkBoxConfigurationApp;
 import javax.swing.*;
 import java.awt.*;
 
@@ -7,7 +6,6 @@ public class ConfigrationFrame extends JFrame
 {
     public ConfigrationFrame()
     {
-//        JFrame frame= new JFrame();
         setTitle("TalkBox Configuration App");
         setSize(600,400);
         setResizable(false);//restricting the user to resize the window
@@ -15,7 +13,7 @@ public class ConfigrationFrame extends JFrame
 
         setLayout( new FlowLayout());
 
-        String [] audio = {"Happy", "Sad", "Excited", "Tired","Proud" ,"Sick" };
+        String [] audio = {"Happy", "Sad", "Excited", "Tired","Proud" ,"Sick", };
         JComboBox audioChoices = new JComboBox(audio);
         getContentPane().add(new JLabel("Feelings"));
         getContentPane().add(audioChoices);

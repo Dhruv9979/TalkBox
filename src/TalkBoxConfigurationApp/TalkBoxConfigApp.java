@@ -1,4 +1,4 @@
-package TalkBoxConfigurationGUI;
+package TalkBoxConfigurationApp;
 
 import javax.swing.*;
 
